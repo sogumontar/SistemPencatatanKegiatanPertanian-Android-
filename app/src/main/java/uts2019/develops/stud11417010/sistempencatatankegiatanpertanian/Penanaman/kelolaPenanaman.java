@@ -17,7 +17,7 @@ public class kelolaPenanaman extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.recycler_penanaman);
         addData();
 
         rv=findViewById(R.id.recycler_view);

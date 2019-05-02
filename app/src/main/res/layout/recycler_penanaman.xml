@@ -5,19 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-<Button
-    android:id="@+id/view"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Lihat dara"
-    android:onClick="pindah"/>
 
-    <Button
-        android:layout_below="@+id/view"
-        android:id="@+id/add"
+
+    <EditText
+        android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tambah dara"
-        android:onClick="tambah"/>
+        android:hint="search"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/search"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Penanaman.tambahData"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama :"/>
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/q"
+        android:layout_below="@id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas :"/>
+    <EditText
+        android:layout_below="@+id/q"
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_below="@+id/kelas"
+        android:id="@+id/w"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nim:"/>
+    <EditText
+        android:layout_below="@id/w"
+        android:id="@+id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/act"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/w"
+        android:layout_marginTop="43dp"
+        android:text="Tambah"
+        android:onClick="tambahdat"
+        />
+
+</RelativeLayout>

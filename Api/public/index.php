@@ -7,11 +7,7 @@ require '../includes/DbConnect.php';
 require '../includes/DbOperations.php';
 
 
-$app = new \Slim\App([
-    'settings'=>[
-        'displayErrorDetails'=>true
-    ]
-]); 
+$app = new \Slim\App;
 
 $app->get('/allusers', function(Request $request, Response $response){
     $db = new DbOperations; 
