@@ -11,3 +11,5 @@
 /build
 /captures
 .externalNativeBuild
+/Api/nbproject/private/
+/pertanian/nbproject/private/

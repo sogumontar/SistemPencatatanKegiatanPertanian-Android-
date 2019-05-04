@@ -8,14 +8,16 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.R;
+import uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.model.Mahasiswa;
 
 public class penanamanAdapter extends RecyclerView.Adapter<penanamanAdapter.penanamanViewHolder> {
 
-    private ArrayList<model> dataList;
+    private List<Mahasiswa> dataList;
 
-    public penanamanAdapter(ArrayList<model> dataList) {
+    public penanamanAdapter(List<Mahasiswa> dataList) {
         this.dataList = dataList;
     }
 
