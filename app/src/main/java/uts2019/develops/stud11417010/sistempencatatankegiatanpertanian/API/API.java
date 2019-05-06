@@ -6,7 +6,7 @@ import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
-import uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.Model.Hasil;
+import uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.model.Hasil;
 
 public interface API {
    

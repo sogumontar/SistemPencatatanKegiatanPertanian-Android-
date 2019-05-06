@@ -16,8 +16,8 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.API.Client;
-import uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.Model.Hasil;
 import uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.R;
+import uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.model.Hasil;
 import uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.model.Mahasiswa;
 
 public class kelolaPenanaman extends AppCompatActivity {

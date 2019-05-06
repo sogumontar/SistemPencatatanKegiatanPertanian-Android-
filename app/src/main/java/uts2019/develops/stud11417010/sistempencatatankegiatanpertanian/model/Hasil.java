@@ -1,4 +1,4 @@
-package uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.Model;
+package uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.model;
 
 import com.google.gson.annotations.SerializedName;
 
