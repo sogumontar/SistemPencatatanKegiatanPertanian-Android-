@@ -2,18 +2,20 @@ package uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.Model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.util.ArrayList;
 import java.util.List;
+
+import uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.model.Mahasiswa;
+
 
 public class Hasil {
     @SerializedName("hasil")
-    List<uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.model.Mahasiswa> mahasiswas;
+    List<Mahasiswa> mahasiswas;
 
-    public List<uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.model.Mahasiswa> getMahasiswas() {
+    public List<Mahasiswa> getMahasiswas() {
         return mahasiswas;
     }
 
-    public void setMahasiswas(List<uts2019.develops.stud11417010.sistempencatatankegiatanpertanian.model.Mahasiswa> mahasiswas) {
+    public void setMahasiswas(List<Mahasiswa> mahasiswas) {
         this.mahasiswas = mahasiswas;
     }
 
