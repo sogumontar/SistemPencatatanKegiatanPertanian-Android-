@@ -20,8 +20,8 @@ import static android.widget.Toast.LENGTH_SHORT;
 
 public class tambahData extends AppCompatActivity {
 
-    String nama="hendra";
-    String kelas="42TI";
+    String nama="ss";
+    String kelas="asd";
     String nim="11417010";
 
     @Override
@@ -35,7 +35,7 @@ public class tambahData extends AppCompatActivity {
         Call<ResponseBody> cal = Client
                 .getInstance()
                 .getApi()
-                .createuser("hendra","asd","asd");
+                .createuser(nama,kelas,nim);
         cal.enqueue(new Callback<ResponseBody>() {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
@@ -55,6 +55,9 @@ public class tambahData extends AppCompatActivity {
                 Toast.makeText(tambahData.this,t.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
+    }
+    public void lihatData(){
+
     }
 
 }
