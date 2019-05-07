@@ -42,10 +42,12 @@ public class kelolaPenanaman extends AppCompatActivity {
                 Log.i("mahasis", ""+pArr.size());
                 rv=findViewById(R.id.recycler_view);
                 pa=new penanamanAdapter(pArr);
-                RecyclerView.LayoutManager lm=new LinearLayoutManager(kelolaPenanaman.this);
-                rv.setLayoutManager(lm);
+
+                //layout manager
+                LinearLayoutManager llm = new LinearLayoutManager(kelolaPenanaman.this);
+                llm.setOrientation(LinearLayoutManager.VERTICAL);
+                rv.setLayoutManager(llm);
                 rv.setAdapter(pa);
-                Toast.makeText(kelolaPenanaman.this,"Hasil : "+pArr.size(), Toast.LENGTH_LONG).show();
             }
 
             @Override
